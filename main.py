@@ -14,4 +14,5 @@ for link in myLinks:
   if counter > 1:
     print(link.text)
     print(f"""https://www.yelp.com{link["href"]}""")
+    print()
   counter +=1
